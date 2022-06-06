@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.main-body{
+    width: 100%;
+    height: 750px;
+   
+    
+    
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(236, 170, 154);
+    float:left;
+    line-height: 75px;
+    z-index: 1;
+}
+.logo{
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+
+}
+.logo p{
+    float: left;
+    text-transform: uppercase;
+}
+.header ul{
+    float: right;
+   
+}
+.header ul li{
+    display: inline-block;
+    list-style: none;
+}
+.header ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+.left{
+    margin-top: 100px;
+    width: 50%;
+    height: 250px;
+    
+    
+}
+.text p{
+    
+    line-height: 38px;
+    font-size: 35px;
+    font-weight:bolder;
+    margin-left: 100px;
+    padding-top: 55px;
+    letter-spacing: 1.5px;
+    
+}
+.small-text{
+    height: 50px;
+    width: 300px;
+    margin-left: 100px;
+    font-weight:bolder;
+    font-size: 14px;
+    position: relative;
+    bottom: 20px;
+    letter-spacing: 1.2px;
+}
+.sign-up{
+    background-color: rgb(236, 170, 154);
+    color: rgb(3, 3, 3);
+    border-radius: 20px;
+    width: 110px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 11px;
+    border-width: 1.2px;
+    cursor: pointer;
+}
+.sign-button{
+    padding-left: 100px;
+    position: relative;
+    bottom: 19px;
+}
+.right{
+    margin: 10px;
+    bottom: 355px;
+    margin-right: 500px;
+    padding-left: 5px;
+    width: 150px;
+    height: 150px;
+    float: right;
+    position: relative;
+}
+
+.image{
+    width: 150px;
+    
+}
+.image2{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 850px;
+    bottom: 250px;
+    
+  
+    
+}
+.center{
+    width: 100%;
+    height: 170px;
+    margin-top: px;
+}
+.photo{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    left: 245px;
+    bottom: 200px;
+}
+.name{
+    padding-left:555px;
+    position: relative;
+    bottom: 550px;
+    right: 35px;
+    line-height: 45px;
+    font-weight: bolder;
+
+}
+.Digital{
+    padding-left:575px;
+    position: relative;
+    bottom: 540px;
+    right: 3px;
+    line-height: 22px;
+    font-weight:bold;
+}
+.paragraph{
+    padding-left:575px;
+    position: relative;
+    bottom:530px;
+    right: 3px;
+    line-height: 21px;
+    font-weight:bold;
+    font-size: 11px;
+    letter-spacing: 0.9px;
+    color: rgb(99, 97, 97);
+}
+.Learn{
+    padding-left: 37.5%;
+}
+.one{
+    width: 33.3%;
+    height: 175px;
+    
+    float: left;
+}
+.instagram{
+    line-height: 15px;
+    position: relative;
+    bottom: 127px;
+    left: 172px;
+}
+.instagram{
+    transition: 1s ease;
+    }
+    
+    .instagram:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+.size-instagram{
+    line-height: 15px;
+    position: relative;
+    bottom: 127px;
+    left: 178px;
+}
+.size-instagram{
+    transition: 1s ease;
+    }
+    
+    .size-instagram:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+.ZeroOne{
+    width: 115px;
+    position: relative;
+    left:30%;
+}
+.ZeroOne{
+    transition: 1s ease;
+    }
+    
+    .ZeroOne:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+.two{
+    width: 33.3%;
+    height: 175px;
+    
+    float: left;
+}
+.ZeroTwo{
+    position: relative;
+    left:30%;
+    width: 115px;
+}
+.ZeroTwo{
+    transition: 1s ease;
+    }
+    
+    .ZeroTwo:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+.three{
+    width: 33.3%;
+    height: 175px;
+    
+    float: left;
+}
+.ZeroThree{
+    width: 115px;
+    position: relative;
+    left:30%;
+}
+.ZeroThree{
+    transition: 1s ease;
+    }
+    
+    .ZeroThree:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+    }
+.Reserve{
+    background-color: rgb(252, 252, 252);
+    color: rgb(3, 3, 3);
+    border-radius: 20px;
+    width: 110px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 11px;
+    border-width: 1.2px;
+    cursor: pointer;
+}
+.button{
+    padding-left: 46%;
+}
+.left-footer{
+    width: 50%;
+    height: 444px;
+    background-color: rgb(39, 44, 49);
+    float: left;
+}
+.right-footer{
+    width: 50%;
+    height: 444px;
+    background-color: rgb(236, 170, 154);
+    float: right;
+}
+.left-footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.trend{
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 75px;
+    word-spacing: 2px;
+    position: relative;
+    top: 5px;
+}
+.first{
+    
+    background-color: rgb(39, 44, 49);
+    width: 250px;
+    border-style: solid;
+    text-align: center;
+    text-decoration-color: #ffffff;
+    border: solid  rgb(236, 170, 154) 1px;
+    height: 28px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+.email{
+    position: relative;
+    bottom: px;
+    top: 45px;
+}
+::placeholder{
+    color:rgb(255, 255, 255);
+    opacity: 1;
+}
+.Send-button{
+   margin-bottom: 30px;
+   
+}
+.Send{
+    background-color: rgb(236, 170, 154);
+    color: rgb(3, 3, 3);
+    border-radius: 20px;
+    width: 130px;
+    height: 27px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border-width: 1.2px;
+    cursor: pointer;
+}
+.address{
+    position: relative;
+    bottom: 20px;
+    line-height: 20px;
+    font-size: 11px;
+    letter-spacing: 1.3px;
+
+}
+.contact
+{
+    position: relative;
+    bottom: 10px;
+    line-height: 20px;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+}
+.icons{
+    position: relative;
+    right: 250px;
+}
+.right-footer{
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+.join{
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 75px;
+    word-spacing: 2px;
+    position: relative;
+    top: 5px;
+}
